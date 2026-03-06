@@ -1,0 +1,43 @@
+{
+  "id": "salvage-union-mech-patterns",
+  "title": "Salvage Union Mech Patterns",
+  "description": "All the Salvage Union Core Book mech patterns.",
+  "version": "0.0.2",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Lott Vanfield",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/LottVanfield/salvage-union-mech-patterns/releases/latest/download/module.json",
+  "download": "https://github.com/LottVanfield/salvage-union-mech-patterns/releases/download/0.0.2/module.zip",
+  "readme": "README.md",
+  "url": "https://github.com/LottVanfield/salvage-union-mech-patterns",
+  "relationships": {
+    "systems": [
+      {
+        "id": "salvage-union",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "corePatterns",
+      "label": "SU Core Mech Patterns",
+      "path": "packs/corePatterns",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "salvage-union",
+      "flags": {}
+    }
+  ]
+}

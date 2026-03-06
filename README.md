@@ -1,2 +1,2 @@
 # salvage-union-mech-patterns
-Premade Mech Patterns for Salvage Union
+Simple module for a compendium containing the Mech Patterns for Salvage Union.
